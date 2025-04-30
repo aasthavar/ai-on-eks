@@ -56,3 +56,13 @@ node_modules
 gen-ai/inference/stable-diffusion-rayserve-gpu/locust/__pycache__/*
 website/package-lock.json
 website/package.json
+
+# ignore trtllm-nvidia-triton-server-gpu related files
+*__pycache_*
+blueprints/inference/trtllm-nvidia-triton-server-gpu/llama/*
+blueprints/inference/trtllm-nvidia-triton-server-gpu/triton_engines/*
+blueprints/inference/trtllm-nvidia-triton-server-gpu/triton_model_files/*
+blueprints/inference/trtllm-nvidia-triton-server-gpu/benchmark-grpc/results.txt
+blueprints/inference/trtllm-nvidia-triton-server-gpu/benchmark-http/results/*
+blueprints/inference/trtllm-nvidia-triton-server-gpu/.ecr_repo_uri
+blueprints/inference/trtllm-nvidia-triton-server-gpu/.eks_region
